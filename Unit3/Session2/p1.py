@@ -31,8 +31,12 @@ class Solution:
         
         count = Counter(tasks) # A:3 and B:3
         
-        max_heap = [-count for count in count.values()]
+        max_heap = [-count for count in count.values()] #--> [1,3,4,5,10,3,5,6]
         print(max_heap)
+
+        # n = 2
+        # A B _ A B _ A before: 4 after: 2 [AABBBBCCCC]
+        # B 3 
             
     
 
