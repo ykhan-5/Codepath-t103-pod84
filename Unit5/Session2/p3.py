@@ -1,4 +1,4 @@
-
+# Forgot to say : Nice meeting you all.
 #U: 
 #M: 
 #P: 
@@ -50,3 +50,5 @@ root = create_example_tree()
 
 result = prulevelorderne(root)
 print(result) 
+
+
