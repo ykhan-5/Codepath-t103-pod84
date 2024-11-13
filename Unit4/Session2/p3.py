@@ -1,3 +1,10 @@
+#U -->
+#M
+#P
+#I
+#R
+#E
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -27,7 +34,7 @@ class Solution:
         pass
 
 # Test input
-nums = [1, 4, 3, 2, 5, 2]
+nums = [1, 4, 3, 2, 5, 2] #  -> 1 , 2, 2, 4, 3, 5
 x = 3
 
 head = arrayToLinkedList(nums)
